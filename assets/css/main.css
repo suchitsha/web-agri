@@ -18,6 +18,10 @@
 		vertical-align: baseline;
 	}
 
+	.flex {
+		
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -2617,6 +2621,7 @@
 
 		.wrapper > .inner {
 			width: 60em;
+
 			margin: 0 auto;
 		}
 
@@ -3572,7 +3577,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		max-width: 45em;
+		max-width: 80em;
 	}
 
 		#cta .inner header {
@@ -3584,9 +3589,10 @@
 			width: 70%;
 		}
 
-			#cta .inner header p {
-				color: inherit;
-			}
+
+		#cta .inner header p {
+			color: inherit;
+		}
 
 		#cta .inner .actions {
 			-moz-order: 2;
